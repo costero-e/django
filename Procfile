@@ -1,1 +1,1 @@
-web: gunicorn nuestrosviajes.herokuapp.com --log-file -
+web: gunicorn feed.wsgi --log-file -
